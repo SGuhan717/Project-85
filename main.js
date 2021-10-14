@@ -21,7 +21,7 @@ function uploadBackground() {
 }
 
 function uploadgreencar() {
-	ctx.drawImage(greencar_imgTag, 430, 83, greencar_width, greencar_height);
+	ctx.drawImage(greencar_imgTag, greencar_x, greencar_y, greencar_width, greencar_height);
 }
 
 window.addEventListener("keydown", my_keydown);
